@@ -1,0 +1,8 @@
+numpy==1.14.3
+Pillow==5.1.0
+pkg-resources==0.0.0
+six==1.11.0
+# Change the next line to your desired pytorch 0.4 wheel url, if you're not
+# using cuda 8.
+torch==0.4.0
+torchvision==0.2.1
