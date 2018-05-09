@@ -6,10 +6,10 @@ and [Ali Farhadi](http://homes.cs.washington.edu/~ali/).
 
 ### Introduction
 
-This is a pytorch training that can be used to train image classifier on
+This is a pytorch training script that can be used to train image classifier on
 ImageNet. The purpose of this repository is to back the experimental results
-presented in the Label Refinery paper. The Label Refinery paper will soon be
-published on arxiv. Will update this README once the paper is published.
+presented in the Label Refinery paper. The Label Refinery paper is
+[published on arxiv](https://arxiv.org/abs/1805.02641).
 
 Label Refinery is a training mechanism that can be used to train any
 classification model. Label Refinery improves the quality of the labels, and
@@ -32,8 +32,8 @@ VGG-16         | 73                    | 70.1                | **75**
 VGG-19         | 72.7                  | 71.39               | **75.46**
 Darknet19      | 72.9                  | 70.6                | **74.47**
 
-For complete list of results and some analysis, please refer to our paper (Link
-TBD).
+For complete list of results and some analysis, please refer to
+[our paper](https://arxiv.org/abs/1805.02641).
 
 ### Usage
 #### Prerequisite
