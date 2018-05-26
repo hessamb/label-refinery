@@ -71,13 +71,13 @@ To test a trained AlexNet model:
 
 Model                | Description                                           | Top-1  | Link
 -------------------- |:-----------------------------------------------------:|:------:|:------:
-`AlexNet^1`            | AlexNet trained with standard labels.               | 57.93  | soon
-`AlexNet^2`            | AlexNet trained with labels refined by `AlexNet^1`. | 59.97  | soon
-`AlexNet^3`            | AlexNet trained with labels refined by `AlexNet^2`. | 60.87  | soon
-`AlexNet^4`            | AlexNet trained with labels refined by `AlexNet^3`. | 61.22  | soon
-`AlexNet^5`            | AlexNet trained with labels refined by `AlexNet^4`. | 61.37  | soon
-`AlexNet By ResNet-50` | AlexNet trained with labels refined by `ResNet-50`. | 66.28  | soon
-`ResNet-50`            | ResNet-50 trained with standard labels.             | 75.7   | soon
+`AlexNet^1`            | AlexNet trained with standard labels.               | 57.93  | [get](https://storage.googleapis.com/xnorai-public/downloads/label-refinery/alexnet%5E1.pytar)
+`AlexNet^2`            | AlexNet trained with labels refined by `AlexNet^1`. | 59.97  | [get](https://storage.googleapis.com/xnorai-public/downloads/label-refinery/alexnet%5E2.pytar)
+`AlexNet^3`            | AlexNet trained with labels refined by `AlexNet^2`. | 60.87  | [get](https://storage.googleapis.com/xnorai-public/downloads/label-refinery/alexnet%5E3.pytar)
+`AlexNet^4`            | AlexNet trained with labels refined by `AlexNet^3`. | 61.22  | [get](https://storage.googleapis.com/xnorai-public/downloads/label-refinery/alexnet%5E4.pytar)
+`AlexNet^5`            | AlexNet trained with labels refined by `AlexNet^4`. | 61.37  | [get](https://storage.googleapis.com/xnorai-public/downloads/label-refinery/alexnet%5E5.pytar)
+`AlexNet By ResNet-50` | AlexNet trained with labels refined by `ResNet-50`. | 66.28  | [get](https://storage.googleapis.com/xnorai-public/downloads/label-refinery/alexnet-from-resnet50.pytar)
+`ResNet-50`            | ResNet-50 trained with standard labels.             | 75.7   | [get](https://storage.googleapis.com/xnorai-public/downloads/label-refinery/resnet50.pytar)
 
 #### License
 By downloading this software you acknowledge that you read and agreed all the
