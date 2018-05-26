@@ -23,7 +23,7 @@ class AlexNet(nn.Module):
 
         self.fc6 = blocks.LinearBnRelu(256 * 6 * 6, 4096)
         self.fc7 = blocks.LinearBnRelu(4096, 4096)
-        self.fc8 = nn.Linear(4096, 1000)
+        self.fc8 = nn.Linear(4096, 1000, bias=False)
 
     def convolutions(self, x):
         return nn.Sequential(self.conv1, self.conv2, self.conv3, self.conv4,
